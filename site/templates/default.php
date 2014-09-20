@@ -1,14 +1,5 @@
 <?php snippet('header') ?>
-<?php snippet('menu') ?>
-<?php snippet('submenu') ?>
-
-<section class="content">
-
-  <article>
-    <h1><?php echo html($page->title()) ?></h1>
-    <?php echo kirbytext($page->text()) ?>
-  </article>
-
-</section>
-
+<h1>The Kirby Boilerplate</h1>
+We kept this super simple!<br />
+Start modifying templates and snippets to make it your own.
 <?php snippet('footer') ?>
