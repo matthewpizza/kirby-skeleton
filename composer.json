@@ -3,19 +3,47 @@
 		{
 			"type": "package",
 			"package": {
-				"name": "bastianallgeier/kirbycms",
+				"name": "getkirby/kirby",
 				"type": "library",
-				"version": "1.1.2",
+				"version": "dev-master",
 				"source": {
 					"type": "git",
-					"url": "https://github.com/bastianallgeier/kirbycms.git",
-					"reference": "1.1.2"
+					"url": "https://github.com/getkirby/kirby.git",
+					"reference": "master"
+				}
+			}
+		},
+		{
+			"type": "package",
+			"package": {
+				"name": "getkirby/toolkit",
+				"type": "library",
+				"version": "dev-master",
+				"source": {
+					"type": "git",
+					"url": "https://github.com/getkirby/toolkit.git",
+					"reference": "master"
+				}
+			}
+		},
+		{
+			"type": "package",
+			"package": {
+				"name": "getkirby/panel",
+				"type": "library",
+				"version": "dev-master",
+				"source": {
+					"type": "git",
+					"url": "https://github.com/getkirby/panel.git",
+					"reference": "master"
 				}
 			}
 		}
 	],
 	"require": {
-		"bastianallgeier/kirbycms": "1.1.2",
+		"getkirby/kirby": "dev-master",
+		"getkirby/toolkit": "dev-master",
+		"getkirby/panel": "dev-master",
 		"composer/installers": "~1.0"
 	}
 }
