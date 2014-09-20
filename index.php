@@ -1,24 +1,16 @@
 <?php
 
 /**
- * Include Kirby CMS
+ * Start Kirby CMS
  */
 
-// Root
-$root = __DIR__;
+if ( ! defined('DS') ) define( 'DS', DIRECTORY_SEPARATOR );
 
-// Kirby system folder
-$rootKirby = $root . '/vendor/bastianallgeier/kirbycms/kirby';
+require_once( __DIR__ . '/bootstrap.php' );
 
-// Kirby site folder
-$rootSite = $root . '/site';
-
-// Kirby content folder
-$rootContent = $root . '/content';
-
-// Load Kirby
-if( ! file_exists($rootKirby . '/system.php') ) {
-	die('The Kirby system could not be loaded');
-}
-
-require_once($rootKirby . '/system.php');
+echo kirby::start( array(
+	'root'         => __DIR__,
+	'root.kirby'   => __DIR__ . DS . 'vendor' . DS . 'getkirby' . DS . 'kirby',
+	'root.content' => __DIR__ . DS . 'content',
+	'root.site'    => __DIR__ . DS . 'site',
+) );
