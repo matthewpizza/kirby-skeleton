@@ -5,11 +5,11 @@
 			"package": {
 				"name": "getkirby/kirby",
 				"type": "library",
-				"version": "dev-master",
+				"version": "2.0.4",
 				"source": {
 					"type": "git",
 					"url": "https://github.com/getkirby/kirby.git",
-					"reference": "master"
+					"reference": "2.0.4"
 				}
 			}
 		},
@@ -18,11 +18,11 @@
 			"package": {
 				"name": "getkirby/toolkit",
 				"type": "library",
-				"version": "dev-master",
+				"version": "2.0.3",
 				"source": {
 					"type": "git",
 					"url": "https://github.com/getkirby/toolkit.git",
-					"reference": "master"
+					"reference": "2.0.3"
 				}
 			}
 		},
@@ -31,19 +31,19 @@
 			"package": {
 				"name": "getkirby/panel",
 				"type": "library",
-				"version": "dev-master",
+				"version": "2.0.4",
 				"source": {
 					"type": "git",
 					"url": "https://github.com/getkirby/panel.git",
-					"reference": "master"
+					"reference": "2.0.4"
 				}
 			}
 		}
 	],
 	"require": {
-		"getkirby/kirby": "dev-master",
-		"getkirby/toolkit": "dev-master",
-		"getkirby/panel": "dev-master",
+		"getkirby/kirby": "2.0.4",
+		"getkirby/toolkit": "2.0.3",
+		"getkirby/panel": "2.0.4",
 		"composer/installers": "~1.0"
 	}
 }
