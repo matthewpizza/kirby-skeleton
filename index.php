@@ -8,9 +8,11 @@ if ( ! defined('DS') ) define( 'DS', DIRECTORY_SEPARATOR );
 
 require_once( __DIR__ . '/bootstrap.php' );
 
-echo kirby::start( array(
-	'root'         => __DIR__,
-	'root.kirby'   => __DIR__ . DS . 'vendor' . DS . 'getkirby' . DS . 'kirby',
-	'root.content' => __DIR__ . DS . 'content',
-	'root.site'    => __DIR__ . DS . 'site',
-) );
+$kirby = kirby();
+
+$kirby->roots->kirby   = __DIR__ . DS . 'vendor' . DS . 'getkirby' . DS . 'kirby';
+$kirby->roots->content = __DIR__ . DS . 'content';
+$kirby->roots->site    = __DIR__ . DS . 'site';
+$kirby->roots->assets  = __DIR__ . DS . 'assets';
+
+echo $kirby->launch();
