@@ -29,3 +29,7 @@ This project is inspired by [Kirby Starterkit](https://github.com/getkirby/start
 ### What is Composer?
 
 [Composer](https://getcomposer.org/) is a dependency manager for PHP. It is used in this project to install and update Kirby. To get started with Composer, checkout the [installation documentation](https://getcomposer.org/doc/00-intro.md).
+
+### Where is the panel?
+
+The [Kirby Panel](https://github.com/getkirby/panel) will be added to the skeleton in a future release.
