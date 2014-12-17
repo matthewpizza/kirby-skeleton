@@ -25,11 +25,16 @@
 					"reference": "2.0.5"
 				}
 			}
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/matthewspencer/kirby-twig-plugin"
 		}
 	],
 	"require": {
 		"composer/installers": "~1.0",
 		"getkirby/kirby": "2.0.5",
-		"getkirby/toolkit": "2.0.5"
+		"getkirby/toolkit": "2.0.5",
+		"matthewspencer/kirby-twig-plugin": "2.0.5"
 	}
 }
