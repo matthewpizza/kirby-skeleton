@@ -5,11 +5,11 @@
 			"package": {
 				"name": "getkirby/kirby",
 				"type": "library",
-				"version": "2.0.4",
+				"version": "2.0.5",
 				"source": {
 					"type": "git",
 					"url": "https://github.com/getkirby/kirby.git",
-					"reference": "2.0.4"
+					"reference": "2.0.5"
 				}
 			}
 		},
@@ -18,18 +18,18 @@
 			"package": {
 				"name": "getkirby/toolkit",
 				"type": "library",
-				"version": "2.0.3",
+				"version": "2.0.5",
 				"source": {
 					"type": "git",
 					"url": "https://github.com/getkirby/toolkit.git",
-					"reference": "2.0.3"
+					"reference": "2.0.5"
 				}
 			}
 		}
 	],
 	"require": {
-		"getkirby/kirby": "2.0.4",
-		"getkirby/toolkit": "2.0.3",
-		"composer/installers": "~1.0"
+		"composer/installers": "~1.0",
+		"getkirby/kirby": "2.0.5",
+		"getkirby/toolkit": "2.0.5"
 	}
 }
